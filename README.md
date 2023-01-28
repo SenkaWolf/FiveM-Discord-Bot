@@ -1,5 +1,8 @@
 # FiveM Discord Bot
 
+This branch includes the node_modules which is used to run it. This isn't best practice to include however the code the bot is based off is broken in later versions of the dependencies.
+I stress there could be exploits, bugs and inefficiencies by running the bot with this older code.
+
 ### Features
 - Use !status then copy the message ID and put into config to auto update every minute.
 - Tickets put channel IDs for ticket log and transcripts into config to have the bot post in the correct channel.
